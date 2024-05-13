@@ -2,9 +2,12 @@ package main
 
 import "fmt"
 
-var name = "yonatan llanto"
-
 func main() {
-	var lastname = "Yonatan"
-	fmt.Println(name, lastname)
+	var (
+		name     string
+		lastname string = "Yonatan"
+		age      int    = 1
+	)
+
+	fmt.Println(name, lastname, age)
 }
