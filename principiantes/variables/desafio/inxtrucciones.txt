@@ -1,0 +1,6 @@
+1. Crear una variable llamada (miNumFav).
+2. Almacena tu número favorito dentro de ella.
+3. Imprime esa variable en la consola.
+4. Crear una nueva variable llamada (numeroUnico).
+5. Almacena el valor de (10) dentro de ella.
+6. Imprímelo en la consola.
