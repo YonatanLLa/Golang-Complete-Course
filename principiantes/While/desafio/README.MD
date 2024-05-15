@@ -30,7 +30,7 @@
 
 7. **Suma de los dígitos de un número**: Escribe un programa que solicite al usuario un número y luego calcule la suma de sus dígitos utilizando un bucle.
 
-8. **Búsqueda en una lista**: Escribe un programa que busque un número ingresado por el usuario en una lista predefinida utilizando un bucle.
+
 
 ## Solución
 
