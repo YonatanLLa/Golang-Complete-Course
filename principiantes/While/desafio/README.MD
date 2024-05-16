@@ -30,8 +30,6 @@
 
 7. **Suma de los dígitos de un número**: Escribe un programa que solicite al usuario un número y luego calcule la suma de sus dígitos utilizando un bucle.
 
-
-
 ## Solución
 
 #### Ejercicio 1.
@@ -161,5 +159,28 @@ func main() {
 	}
 
 	fmt.Printf("El número de dígitos en %d es: %d\n", dato, acc)
+}
+```
+
+### Ejercicio 7.
+
+```go
+package main
+import "fmt"
+
+func main() {
+	var number int
+	fmt.Print("Ingrese el numero: ")
+	fmt.Scan(&number)
+	count := 0
+	originalNumber := number
+	sum := 0
+	for number != 0 {
+		dig := number % 10
+		sum += dig
+		number /= 10
+		count++
+	}
+	fmt.Printf("La suma de los dígitos del número %d es: %d\n", originalNumber, sum)
 }
 ```
