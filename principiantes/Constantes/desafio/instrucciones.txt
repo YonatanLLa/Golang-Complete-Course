@@ -1,0 +1,5 @@
+
+1. Cree un nombre constante (myConst)
+2. Almacene 20 como valor
+3. Crea (x, y, z) de una vez
+4. Registre todas las constantes en la consola.
